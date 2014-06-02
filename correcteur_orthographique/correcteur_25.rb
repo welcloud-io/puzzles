@@ -169,7 +169,7 @@ end
 
 class Dictionary
   
-  attr_accessor :verbe, :articles, :noun_words, :noms, :adjectif_words, :adjectifs
+  attr_accessor :verbe, :articles, :noms, :adjectifs
   
   def initialize(verbe, adjectifs, noms)
     
